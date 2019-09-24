@@ -58,10 +58,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 void matrix_init_user(void) {
     //Sets default brightness
     //Known good (non-flickery) values: 5, 10, 19, 32, 128.
-    gcr_desired = 5;
+    gcr_desired = 1;
     //set color
     rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
-    rgb_matrix_sethsv(HSV_WHITE);
+    rgb_matrix_sethsv(0, 90, 230);
 };
 
 // Runs constantly in the background, in a loop.

@@ -57,8 +57,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Runs just one time when the keyboard initializes.
 void matrix_init_user(void) {
     //Sets default brightness
-    //Known good (non-flickery) values: 5, 10, 19, 32, 128.
-    gcr_desired = 1;
+    //Known good (non-flickery) values: 1, 3, 5, 10, 19, 32, 128.
+    gcr_desired = 3;
     //set color
     rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
     rgb_matrix_sethsv(0, 90, 230);

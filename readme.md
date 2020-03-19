@@ -1,5 +1,14 @@
 # Quantum Mechanical Keyboard Firmware
 
+# Build Notes from Reilly
+
+Build: `make massdrop/ctrl:reilly`
+Load: `./mdloader_mac.dms --first --download massdrop_ctrl_reilly.bin --restart`
+
+Hold function+b for a second and release to reset. Lights will go off.
+
+#### Everything else
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Build Status](https://travis-ci.org/qmk/qmk_firmware.svg?branch=master)](https://travis-ci.org/qmk/qmk_firmware)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
